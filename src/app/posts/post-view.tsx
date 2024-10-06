@@ -36,7 +36,7 @@ const PostView = () => {
 
   useEffect(() => {
     fetchPosts();
-  }, [fetchPosts]);
+  }, []);
 
   return (
     <InfiniteScroll
